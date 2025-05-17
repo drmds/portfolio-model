@@ -16,7 +16,3 @@ function hamenuChange() {
         hamMenu.classList.add("mobile");
         logo.classList.add("mobile");
   }}
-
-  submitBtn.addEventListener("click", () => {
-    alert("This button is only for demonstation.");
-  })
