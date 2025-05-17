@@ -100,7 +100,7 @@ section > h1 {
     width: 100%;
     padding-bottom: 7rem;
     max-width: 100%;
-    background-image: url("cover-photo.png");
+    background-image: url("src/cover-photo.png");
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 67% 100%, 51% 80%, 0% 80%);
 }
