@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to one of my projects to showcase and practice the frontend and web desing skills I have learned before.">
+	<meta name="keywords" content="portfolio, practise, frontend, html, css, javascript, coding, improvement">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio Page</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <header>
+            <nav class="navbar">
+                <a class="logo" href="#top"><i>Logo</i></a>
+                <ul class="menu-links">
+                    <li><a class="m-link" href="#top">Home</a></li>
+                    <li><a class="m-link" href="#aboutMe">About</a></li>
+                    <li><a class="m-link" href="#myProjects">Projects</a></li>
+                    <li><a class="m-link" href="#myContact">Contact</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="ham-menu" onclick="hamenuChange()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="intro">
+                <div id="insideIntro">
+                    <span>
+                        <h1>Welcome To My Portfolio Page!<br> My name is Dora, the Creator of this page.</h1>
+                        <p>This section provides a brief introduction from the Creator of the website. It gives them a chance to engage attention and invite the Viewer to check out the work and solutions being put into the website.</p>
+                        <!--p> e.g. Being an entry-level frontend developer in the extensive world of IT, my goal is to provide the most up-to-date frontend solutions to the Company, as well as to constantly improve and extend my knowledge. Let's explore my previous works together here!</p-->
+                        <a href="#myContact"><button id="ContactBtn">Get In Touch!</button></a>
+                    </span>
+                    <span><img id="portrait-photo" src="giphoto.gif" alt="Photo about me"></span>
+                </div>
+            </section>
+
+             <section id="aboutMe">
+                <h1>&#9654; What To Know About Me?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br><br>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.<br><br>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+                <br>
+                <h3>SKILLS I HAVE LEARNED SO FAR</h3>
+                <hr>
+                <ul id="skills-list">
+                    <li class="skills">
+                        <img src="html-logo.svg" alt="HTML logo">
+                        <p>HTML5</p>
+                    </li>
+                    <li class="skills">
+                        <img src="css-logo.svg" alt="CSS logo">
+                        <p>CSS3</p>
+                    </li>
+                    <li class="skills">
+                        <img src="js-logo.png" alt="JS logo">
+                        <p>JavaScript</p>
+                    </li>
+                    <li class="skills">
+                        <img src="bootstrap-logo.png" alt="Figma logo">
+                        <p>Bootstrap</p>
+                        <li class="skills">
+                            <img src="react-logo.svg" alt="React logo">
+                            <p>ReactJs</p>
+                        </li>
+                    </li>
+                    <li class="skills">
+                        <img src="figma-logo.svg" alt="Figma logo">
+                        <p>Figma</p>
+                    </li>
+                </ul>
+                <hr>
+            </section>
+
+            <section id="myProjects">
+                <h1>&#9654; My Projects</h1>
+                <p>In the following section, the Creator has created a unique area to showcase the most important, relevant and latest projects they have been working on.<br><br>Each project contains an eye-catching photo of the page, a short description of the content and the frontend skills used to build up that specific project.</p>
+                <!--p> e.g. In the following section, my aim is to present some of my latest projects I have been working on these days, with different skills used from the previous list.<br><br>Each project is shown out with an screen photo to intruduce itself to the Viewer, a short description of the used tools and the goal of that specific work, as well as a button to navigate the Viewer to check it out themselves.</p-->
+                <br><br>
+                <div id="projects">
+                    <span class="project xoxoxo">
+                        <h3>TICTACTOE GAME</h3>
+                        <img src="cover-photo.png" alt="Tictactoe Photo">
+                        <p>e.g. This was the first project to combine the knowledge of the 3 main pillars of frontend development.</p>
+                        <a href="ongoing-photo.png" target="_blank"><button>Check Out</button></a>
+                    </span>
+                    <span class="project to-do-list">
+                        <h3>TO-DO LIST SITE</h3>
+                        <img src="cover-photo.png" alt="To-do-list Photo">
+                        <p>e.g. The To-Do List gave an opportunity to practise object manipulation and dynamic content management.</p>
+                        <a href="ongoing-photo.png" target="_blank"><button>Check Out</button></a>
+                    </span>
+                    <span class="project blog">
+                        <h3>NOVEL BLOG</h3>
+                        <img src="cover-photo.png.png" alt="Blog Photo">
+                        <p>e.g. The Novel Page provided an opportunity to use the React library in action and implement the learned before.</p>
+                        <a href="ongoing-photo.png" target="_blank"><button>Check Out</button></a>
+                    </span>
+                    <!-- Possible project in the future to add:
+                    <span class="project escape">
+                        <h3>ESCAPE GAME ROOM</h3>
+                        <img src="cover-photo.png." alt="Escape Room Photo">
+                        <p>The game, the visuals and the code were created to imitate a real world example of using Javascript on web platform.</p>
+                        <a href="intro-bg-6.png" target="_blank"><button>Check Out</button></a>
+                    </span-->
+
+                    <!-- In case a project is in progess, there is a change to showcase it in a unique way, shown below. -->
+                    <span class="project hidden disabled">
+                        <img id="lock" src="lock-icon.png" alt="lock">
+                        <h3>LANDING PAGE</h3>
+                        <img src="cover-photo.png" alt="tictactoe photo">
+                        <p>e.g. Lorem ipsum dolor setitsit ee amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        <button inactive>Check Out</button>
+                    </span>
+                </div>
+            </section>
+
+            <section id="myContact">
+                <h1>&#9654; My Contacts</h1>
+                <p>After showcasing the self-made projects above, this section gives the Creator and Viewer a chance to get in touch and start a benefitial mutual work. For this to happen, several contact info is added, listed below.<br>You can finish it by saying "Can't wait to hear from You!"</p>
+                <!--p> e.g. Hoping that my work got you interested and we have the opportunity to start talking. For that purpose, the list of potential contacts of mine I added to the page for Us to begin working together.<br><br>Can't wait to hear from You!</p-->
+                 <div id="contact-cols"> 
+                    <span id="contact-list">
+                        <ul>
+                            <li id="full-name"><b><i>Full Name</i></b></li>
+                            <li><i class="fa fa-envelope"></i>  example@gmail.com</li>
+                            <li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/"> LinkedIn</a></li>
+                            <li><i class="fa fa-user"></i> <a href="temp-photo.jpg" download target="_blank"> Curriculum Vitae</a></li>
+                        </ul>
+                    </span>
+                    <span id="contact-box">
+                        <form action="/action_page.php" method="post">
+                          <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="" required>
+                          <label for="subject">Your Message</label>
+                            <textarea id="subject" name="subject" placeholder="Write something..." rows="10" required></textarea>
+                          <input id="submit-btn" type="submit" name="submit" value="SUBMIT">
+                        </form>
+                    </span>
+                </div> 
+            </section>
+
+        </main>
+
+        <footer>
+           <p>Full  Name, Portfolio, @ 2025.</p>
+        </footer>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
